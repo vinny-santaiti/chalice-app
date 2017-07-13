@@ -69,7 +69,7 @@ def recipe(food):
                     status_code=200,
                     headers={'Content-Type': 'text/html'})
 
-
+# http://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-post-example.html
 @app.route('/upload', methods=['GET'])
 def get():
     """show form to upload image file"""
