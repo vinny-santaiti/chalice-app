@@ -4,6 +4,7 @@ Chalice App - Simple API
 .. Chalice is a Python Serverless Microframework for AWS
 
 Here are the endpoints:
+
 1.
 "/"
 Return a simple status message: "ok"
