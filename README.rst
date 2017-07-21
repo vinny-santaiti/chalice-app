@@ -6,14 +6,8 @@ Chalice App - Simple API
 Here are the endpoints:
 
 * "/" Return a simple status message: "ok"
-* "/recipe/{food}" Consume recipe puppy api and query recipes for food
-
-Ref: http://www.recipepuppy.com/about/api/
-
-For example: "/recipe/taco" will show recipes for tacos
-
-* "/upload/" Accept a PNG upload, store it on S3, and publish it to an html page.
-TODO: Conversion of POST data to file does not produce an image.
+* "/recipe/{food}" Consume recipe puppy api and query recipes for food. Reference: http://www.recipepuppy.com/about/api/ For example: "/recipe/taco" will show recipes for tacos
+* "/upload/" Accept a PNG upload, store it on S3, and publish it to an html page. TODO: Conversion of POST data to file does not produce an image.
 
 Issues
 ======
